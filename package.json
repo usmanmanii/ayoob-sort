@@ -1,0 +1,56 @@
+{
+  "name": "ayoob-sort",
+  "version": "3.0.0",
+  "description": "Sorting that just works. Up to 21x faster than Array.sort(). Numbers sort as numbers, not strings. Auto-detects your data shape and picks the optimal algorithm. Zero config. One function call: sort(arr). Stable. Handles NaN/null/undefined. TypeScript types included.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src/index.js",
+    "src/index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/test.js",
+    "bench": "node benchmark/bench.js"
+  },
+  "keywords": [
+    "sort",
+    "sorting",
+    "fast sort",
+    "fastest sort",
+    "array sort",
+    "numeric sort",
+    "float sort",
+    "radix sort",
+    "counting sort",
+    "adaptive sort",
+    "object sort",
+    "sort by key",
+    "sort objects",
+    "sort numbers",
+    "sort array of objects",
+    "faster than array sort",
+    "high performance",
+    "performance",
+    "algorithm",
+    "ieee754",
+    "stable sort",
+    "typescript",
+    "drop-in replacement",
+    "zero config"
+  ],
+  "author": "Husain Ayoob <husain@ayoobai.com> (https://ayoobai.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AyoobAI/ayoob-sort"
+  },
+  "homepage": "https://github.com/AyoobAI/ayoob-sort#readme",
+  "bugs": {
+    "url": "https://github.com/AyoobAI/ayoob-sort/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
