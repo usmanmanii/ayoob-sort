@@ -4,6 +4,6 @@ definitive-benchmark.js
 full-benchmark.js
 inplace-benchmark.js
 real-world-test.js
-.claude/
+
 launchkit.md
 .package-lock.json
